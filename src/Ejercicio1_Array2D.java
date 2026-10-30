@@ -13,7 +13,7 @@ void main() {
 
     for (int i = 0; i < filas; i++) {
         for (int j = 0; j < columnas; j++) {
-            System.out.print("Número [" + i + "][" + j + "]: ");
+            System.out.print("Introdueix numero: ");
             matriu[i][j] = input.nextInt();
         }
     }
